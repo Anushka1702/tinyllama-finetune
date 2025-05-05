@@ -1,2 +1,2 @@
 # tinyllama-finetune
-This project fine-tunes TinyLLaMA-1.1B-Chat using LoRA on the Alpaca-cleaned dataset for efficient, low-resource instruction tuning.
+This project fine-tunes TinyLLaMA-1.1B-Chat using LoRA (Low-Rank Adaptation) on the Alpaca-cleaned dataset for efficient, low-resource instruction tuning. The goal is to adapt a lightweight open-source language model to follow instructions effectively, while keeping memory and compute requirements low—making it ideal for environments like Google Colab. The training pipeline uses Hugging Face’s transformers, datasets, and PEFT libraries, enabling modular and scalable experimentation with parameter-efficient methods.
